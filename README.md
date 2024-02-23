@@ -44,8 +44,6 @@ Make sure you have the following installed on your machine:
 
 - **Java Spring Boot:** Backend framework for building Java-based enterprise applications.
 - **HTML:** Markup language for creating the structure of the web pages.
-- **CSS:** Style sheet language for designing the presentation of the web pages.
-- **Bootstrap:** Front-end framework for building responsive and mobile-first web pages.
 
 ## Project Structure
 
