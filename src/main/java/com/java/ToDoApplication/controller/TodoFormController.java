@@ -55,7 +55,7 @@ public class TodoFormController {
     }
 
     @PostMapping("/todo/{id}")
-    public String updateTodoItem(@PathVariable("id") Long id, @Validated TodoItem todoItem, BindingResult result, Model model) {
+    public String updateTodoItem(@PathVariable() Long id, @Validated TodoItem todoItem, BindingResult result, Model model) {
 
         TodoItem item = todoItemService
                 .getById(id)

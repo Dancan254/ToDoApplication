@@ -24,16 +24,11 @@ public class TodoItemService {
         return todoItemRepository.findAll();
     }
 
-    public TodoItem save(TodoItem todoItem) {
+    public void save(TodoItem todoItem) {
         if (todoItem.getId() == null) {
             todoItem.setCreatedAt(Instant.now());
         }
         todoItem.setUpdatedAt(Instant.now());
-        return todoItemRepository.save(todoItem);
+        todoItemRepository.save(todoItem);
     }
-
-    public void delete(TodoItem todoItem) {
-        todoItemRepository.delete(todoItem);
-    }
-
 }
