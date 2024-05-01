@@ -1,4 +1,4 @@
-```markdown
+i```markdown
 # Java Spring Boot To-Do App
 
 A simple To-Do application built with Java Spring Boot, HTML, CSS, and Bootstrap.
@@ -38,7 +38,7 @@ Make sure you have the following installed on your machine:
    mvn spring-boot:run
    ```
 
-4. Open your browser and visit [http://localhost:8080](http://localhost:8084) to access the To-Do app.
+4. Open your browser and visit (http://localhost:8084) to access the To-Do app.
 
 ## Technologies Used
 
