@@ -31,4 +31,8 @@ public class TodoItemService {
         todoItem.setUpdatedAt(Instant.now());
         todoItemRepository.save(todoItem);
     }
+
+    public void delete(TodoItem todoItem) {
+        todoItemRepository.delete(todoItem);
+    }
 }
